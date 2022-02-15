@@ -1,0 +1,114 @@
+.main_header {
+  width: 100%;
+  background-color: #000000;
+  height: 100%;
+  padding: 15px 0px;
+  border-radius: 0px 0px 15px 15px;
+}
+
+
+.main_header h1 {
+  margin: 0px 5%;
+  font-size: 95px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.div_image_header {
+  background-color: #F9F9F9;
+  background-size: cover;
+  margin: 15px auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-position-y: center;
+  border-color: #0353B4;
+  border-style: solid;
+  border-width:  5px;
+  transition: transform .1s;
+}
+
+.banner .div_image_header {
+  position: absolute;
+  top: -14%;
+  right: -7%;
+  background-color: #F9F9F9;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-position-y: center;
+  border-color: #0353B4;
+  border-style: solid;
+  border-width:  5px;
+  transition: transform .1s;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .banner .div_image_header {
+    top: -10%;
+    right: -14%;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .banner .div_image_header {
+    top: -10%;
+    right: -14%;
+  }
+}
+
+
+
+.div_image_header:hover {
+  transform: scale(1.1);
+}
+
+
+#header {
+  border-radius: 15px ;
+  padding: 0px;
+  margin: 0px;
+}
+
+#header .white_card {
+  margin: 15px 15px;
+}
+
+#header h4 {
+  text-align: left;
+  font-weight: 400;
+}
+
+#header_2 {
+  border-radius: 15px ;
+  padding: 0px;
+  margin: 0px;
+  align-items: center;
+}
+
+#header_2 .white_card {
+  margin: 15px 15px;
+}
+
+#header_2 h2 {
+  text-align: center;
+  font-weight: 900;
+  padding-top: 5px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+#header_2 span {
+  margin: auto 0px;
+  display: flex;
+  justify-content: center;
+}
+
+#header_2 i {
+  align-self: center;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-right: 5px;
+}

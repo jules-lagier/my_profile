@@ -1,0 +1,36 @@
+.btn {
+  text-align: center;
+  border-radius: 10px;
+  margin: 25px auto;
+  padding: 15px 25px;
+  background-color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  font-weight: 500;
+  width: fit-content;
+  border: #000000;
+  border-style: groove;
+  border-radius: 0px 0px 15px 15px;
+  box-shadow: 15px 15px 0px #000000;
+}
+
+.btn:hover {
+  transform: translate(15px, 15px);
+  box-shadow: 0px 0px 0px #ffffff;
+}
+
+.icon_btn {
+  font-size: 95px;
+  color: #0353B4;
+  padding: 25px;
+  border-radius: 0px 0px 45px 45px;
+  border-style: solid;
+  border-color: #000000;
+  box-shadow: 15px 15px 0px #000000;
+  margin-bottom: 25px;
+}
+
+.icon_btn:hover {
+  transform: translate(15px, 15px);
+  box-shadow: 0px 0px 0px #FFFFFF;
+}

@@ -1,0 +1,23 @@
+.banner {
+  /* 2. Make the background image cover the banner div */
+	background-size: cover;
+  /* 3. Center the image */
+	background-position: center;
+  border-style: solid;
+}
+.banner h1 {
+  color: #FFFFFF;
+  font-size: 50px;
+}
+.banner h2 {
+  color: #FFFFFF;
+  font-size: 40px;
+}
+
+.banner .info {
+  text-align: center;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 0;
+  margin-top: 25px;
+}

@@ -1,0 +1,21 @@
+#profil_card {
+  padding: 15px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+.carb_blue2 {
+  background-color: #0353B4;
+}
+
+.card_green {
+  background-color: #1B9D33;
+}
+
+.card_purple {
+  background-color: #52489C;
+}
+
+.card_orange {
+  background-color: ##FF950A;
+}
